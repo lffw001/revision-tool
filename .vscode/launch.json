@@ -5,18 +5,27 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "revision-tool",
+            "name": "common",
+            "cwd": "common",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "revision-tool (profile mode)",
+            "name": "gui",
+            "cwd": "gui",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "gui (profile mode)",
+            "cwd": "gui",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "revision-tool (release mode)",
+            "name": "gui (release mode)",
+            "cwd": "gui",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"
